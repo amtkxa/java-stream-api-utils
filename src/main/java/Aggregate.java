@@ -10,6 +10,17 @@ public class Aggregate {
     private Aggregate() {}
 
     /**
+     * 要素数の取得
+     *
+     * @param arrays
+     * @return 最小値
+     */
+    public static long count(List<Integer> arrays) {
+        long count = arrays.stream().count();
+        return count;
+    }
+
+    /**
      * 最小値の取得
      *
      * @param arrays

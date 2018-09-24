@@ -8,6 +8,13 @@ import org.junit.jupiter.api.Test;
 class AggregateTest {
 
     @Test
+    void count() {
+        List<Integer> arrays = Arrays.asList(200, 100, 300);
+        long result = Aggregate.count(arrays);
+        assertThat(result, is(3L));
+    }
+
+    @Test
     void min() {
         List<Integer> arrays = Arrays.asList(200, 100, 300);
         Integer result = Aggregate.min(arrays);
