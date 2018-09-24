@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0635a471-c0eb-499b-9b23-91692a6667aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calc/CalcMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/calc/CalcMinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AggregateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calc/CalcMin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/calc/CalcMinTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AggregateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AggregateTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,6 +26,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="groovy" value="2" />
           <entry key="java" value="3" />
@@ -39,6 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Groovy" value="2" />
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -49,14 +46,14 @@
         <counts>
           <entry key="gitignore" value="12" />
           <entry key="groovy" value="5" />
-          <entry key="java" value="207" />
+          <entry key="java" value="308" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="207" />
+          <entry key="JAVA" value="308" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="3" />
         </counts>
@@ -68,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AggregateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Aggregate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="420">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="364">
+              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -129,8 +126,9 @@
         <option value="$PROJECT_DIR$/src/main/java/calc/CalcMin.java" />
         <option value="$PROJECT_DIR$/src/main/java/calc/Calc.java" />
         <option value="$PROJECT_DIR$/src/main/java/calc/Aggregate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Aggregate.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/AggregateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Aggregate.java" />
       </list>
     </option>
   </component>
@@ -223,7 +221,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537792645975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537801573765" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -297,39 +295,57 @@
     <history-entry file="CalcMinTest - 2018.09.24 at 18h 53m 34s.xml">
       <configuration name="CalcMinTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AggregateTest - 2018.09.24 at 21h 41m 23s.xml">
+      <configuration name="AggregateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AggregateTest - 2018.09.24 at 21h 58m 09s.xml">
+      <configuration name="AggregateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AggregateTest - 2018.09.24 at 21h 59m 42s.xml">
+      <configuration name="AggregateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AggregateTest - 2018.09.24 at 22h 00m 32s.xml">
+      <configuration name="AggregateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AggregateTest - 2018.09.24 at 22h 00m 51s.xml">
+      <configuration name="AggregateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AggregateTest - 2018.09.24 at 22h 01m 32s.xml">
+      <configuration name="AggregateTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1316" y="22" width="1215" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24978687" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24978687" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39958593" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -343,10 +359,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AggregateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -362,18 +392,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Aggregate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="420">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
         </state>
       </provider>
     </entry>
