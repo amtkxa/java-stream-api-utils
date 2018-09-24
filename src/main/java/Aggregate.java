@@ -13,7 +13,7 @@ public class Aggregate {
      * 要素数の取得
      *
      * @param arrays
-     * @return 最小値
+     * @return 要素数
      */
     public static long count(List<Integer> arrays) {
         long count = arrays.stream().count();
