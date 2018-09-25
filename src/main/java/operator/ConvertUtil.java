@@ -1,5 +1,7 @@
 package operator;
 
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -14,8 +16,17 @@ public class ConvertUtil {
      * @param stream
      * @return 要素数
      */
-    public static Object[] convertStreamToArray(Stream<String> stream) {
+    public static Object[] convertStreamToArray(Stream<Object> stream) {
         return stream.toArray();
     }
 
+    /**
+     * Stream型をListに変換
+     *
+     * @param stream
+     * @return 要素数
+     */
+    public static List<Object> convertStreamToList(Stream<Object> stream) {
+        return stream.collect(Collectors.toList());
+    }
 }
