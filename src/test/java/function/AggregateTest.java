@@ -1,8 +1,12 @@
+package function;
+
 import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+
+import function.Aggregate;
 import org.junit.jupiter.api.Test;
 
 class AggregateTest {
