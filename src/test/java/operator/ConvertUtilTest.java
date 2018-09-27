@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.contains;
+import static org.hamcrest.Matchers.is;
 import static org.hamcrest.collection.IsArrayContainingInOrder.arrayContaining;
 
 class ConvertUtilTest {
@@ -16,6 +17,13 @@ class ConvertUtilTest {
         Stream<Object> stream = Stream.of("AAA", "BBB", "CCC");
         Object[] objArray = ConvertUtil.convertStreamToArray(stream);
         assertThat(objArray, arrayContaining("AAA", "BBB","CCC"));
+    }
+
+    @Test
+    void convertArrayToStream() {
+        String[] array = {"AAA", "BBB", "CCC"};
+        Stream<Object> stream = ConvertUtil.convertArrayToStream(array);
+        assertThat(stream.toArray(String[]::new), arrayContaining("AAA", "BBB","CCC"));
     }
 
     @Test

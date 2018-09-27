@@ -1,5 +1,6 @@
 package operator;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -18,6 +19,16 @@ public class ConvertUtil {
      */
     public static Object[] convertStreamToArray(Stream<Object> stream) {
         return stream.toArray();
+    }
+
+    /**
+     * 配列をStream型に変換
+     *
+     * @param obj
+     * @return 要素数
+     */
+    public static Stream<Object> convertArrayToStream(Object[] obj) {
+        return Arrays.stream(obj);
     }
 
     /**
